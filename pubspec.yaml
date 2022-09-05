@@ -1,0 +1,45 @@
+name: afterlife
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase dependencies
+  firebase_core: ^1.13.1
+  firebase_auth: ^3.1.1
+  cloud_firestore: ^3.1.10
+
+  # UI dependencies
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.1.0
+  animated_text_kit: ^4.2.1
+  responsive_builder: ^0.4.1
+  bubble_tab_indicator: ^0.1.6
+
+  # State management dependencies
+  get: ^4.6.1
+
+  # Utility dependencies
+  uuid: ^3.0.4
+  timeago: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
